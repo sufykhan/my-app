@@ -1,17 +1,17 @@
-import React from "react";
+import React,{Fragment} from "react";
 import "../styles.css";
 import Header from "./Header.jsx"
 import Footer from "./footer.jsx"
 import Note from "./Note.jsx"
-
-function app()
+import {Route} from "react-router-dom";
+function App()
 {
     return (
         <div>
-            <Header/>
-            <Note/>
+            <Route exact path="/" component={Header} />
+            <Route path="/note" component={Note} />
             <Footer/>
         </div>
         );
 }
-export default app;
+export default App;

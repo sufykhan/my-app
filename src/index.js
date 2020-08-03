@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import app from "./component/app"
-ReactDOM.render( 
-   app(),
+import App from "./component/app";
+import {HashRouter as Router} from "react-router-dom";
+ReactDOM.render(
+   <Router><App/></Router>,
   document.getElementById('root')
 );
-
