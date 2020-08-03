@@ -18,12 +18,13 @@ html
 }
 .container
 {
-    top: 720px;
+    position:fixed;
+    bottom:0;
     margin:-10px;
     background-color: rgba(88, 82, 82, 0.4);
     text-align: center;
     height:4rem;
-    width: 5000px;
+    width:100%;
 }
 .note
 {

@@ -8,9 +8,9 @@ function App()
 {
     return (
         <div>
-            <Route exact path="/" component={Header} />
-            <Route path="/note" component={Note} />
-            <Footer/>
+            <Route path="/" component={Header} />
+            <Route exact path="/note" component={Note} />
+            <Route path="/" component={Footer} />
         </div>
         );
 }
