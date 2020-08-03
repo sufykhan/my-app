@@ -1,0 +1,40 @@
+html
+{
+    font-family: sans-serif;
+}
+.header
+{
+    background-color:#ffcb74;
+    height:5rem;
+    width: 100%;
+    font-size: 3.0rem;
+    line-height: 4.5rem;
+    padding-left: 3rem;
+    margin:-10px 0px 0px -10px;
+    color:whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    box-shadow: 0 0 10px 5px rgba(7, 7, 7, 0.4);
+
+}
+.container
+{
+    position: fixed;
+    top: 720px;
+    margin:-10px;
+    background-color: rgba(88, 82, 82, 0.4);
+    text-align: center;
+    height:4rem;
+    width: 5000px;
+}
+.note
+{
+    background-color: rgb(240, 229, 229);
+    border-radius: 7px;
+    margin:15px;
+    padding:1px 0px 1px 10px;
+    width: 300px;
+}
+.note p
+{
+    padding-bottom: 55px ;
+}
