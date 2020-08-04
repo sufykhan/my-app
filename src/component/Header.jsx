@@ -5,7 +5,7 @@ function Header()
 {
     return (
 
-            <header className="header"><Link to="/note" >Keeper</Link></header>
+            <header className="header"><Link to="/note" >Keepe App</Link></header>
     );
 }
 export default Header;
