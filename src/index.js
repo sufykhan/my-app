@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import App from "./component/app";
 import {BrowserRouter as Router} from "react-router-dom";
 ReactDOM.render(
-   <Router><App/></Router>,
+   <Router basename={process.env.PUBLIC_URL}><App/></Router>,
   document.getElementById('root')
 );
