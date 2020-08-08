@@ -7,11 +7,11 @@ import {Route} from "react-router-dom";
 function App()
 {
     return (
-        <div>
+        <React.Fragment>
             <Route path="/" component={Header} />
-            <Route exact path="/note" component={Note} />
+            <Route path="/note" component={Note} />
             <Route path="/" component={Footer} />
-        </div>
+        </React.Fragment>
         );
 }
 export default App;
