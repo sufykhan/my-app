@@ -7,11 +7,11 @@ import {Route,Switch} from "react-router-dom";
 function App()
 {
     return (
-             <Switch>
+             <>
             <Route path="/" component={Header} />
-            <Route path="/note" component={Note} />
+            <Route exact path="/note" component={Note} />
             <Route path="/" component={Footer} />
-            </Switch>
+            </>
         );
 }
 export default App;
