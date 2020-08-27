@@ -1,17 +1,17 @@
-import React,{Fragment} from "react";
+import React from "react";
 import "../styles.css";
 import Header from "./Header.jsx"
 import Footer from "./footer.jsx"
 import Note from "./Note.jsx"
-import {Route} from "react-router-dom";
+import {Route,Switch} from "react-router-dom";
 function App()
 {
     return (
-        <React.Fragment>
+             <Switch>
             <Route path="/" component={Header} />
             <Route path="/note" component={Note} />
             <Route path="/" component={Footer} />
-        </React.Fragment>
+            </Switch>
         );
 }
 export default App;
